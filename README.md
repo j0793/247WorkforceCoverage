@@ -42,5 +42,16 @@ A nationwide online learning platform operates 24/7 and must ensure adequate edu
 5/11/2026:
 --In Progress: Readme/outline started.
 
+Considerations:
+-Demand: When and where are students most active? What hours have the highest session volume? Should be consider only regional (US) candidates, or global as well?
+
+-Suppy: How are educators distributed across time zones? Are there coverage gaps? Ideally there is a seamless transition.
+
+-Balance: What is is the student-educator ratio by hour and time zone? Where does it fall outside of acceptable ranges?
+
+-Cost: Where is overlap happening? Where is understaffing creating risk?
+
+-Forecasting: Can we predict peak demand periods to schedule proactively?
+
 ## Author
 Julian Jimenez - [LinkedIn](http://linkedin.com/in/julianjimenez-manager) 
