@@ -1,0 +1,13 @@
+# Data files
+/data/*.csv
+
+# Environment files
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode settings
+.vscode/
