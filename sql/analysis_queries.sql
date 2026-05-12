@@ -1,4 +1,5 @@
 --Query 1: Student Activity by Hour
+--Understand when coverage is most needed
 SELECT
     session_hour,
     COUNT(*) AS total_sessions
@@ -7,6 +8,7 @@ GROUP BY session_hour
 ORDER BY session_hour;
 
 --Query 2: Educator Availability by Hour
+--Uses generate_series to expand availability windows into hourly slots
 SELECT
     generate_series AS available_hour,
     COUNT(educator_id) AS educators_available
@@ -15,7 +17,9 @@ FROM educators,
 GROUP BY available_hour
 ORDER BY available_hour;
 
---Query 3: Supply VS Demand Gap by Hour
+-- Query 3: Supply VS Demand Gap by Hour
+-- Core analysis query - calculates students per educator by hour
+-- Rations above 2.0 indicate coverage risk
 WITH demand AS (
     SELECT
         session_hour,

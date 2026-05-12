@@ -1,3 +1,8 @@
+# generate_data.py
+# Purpose: Generate syntethic educator and student datasets
+# Output: /data/educators.csv and /data/students.csv
+# Records: 500 educators, 10,000 students
+
 import pandas as pd
 from faker import Faker
 import random
