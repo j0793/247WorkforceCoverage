@@ -1,7 +1,7 @@
 # Workforce Optimization: 24/7 Online Learning Coverage
 
 ## Problem Statement
-A nationwide online learning platform operates 24/7 and must ensure adequate educator coverage across all hours and time zones. With hundreds of educators and thousands of students, the goal is to optimize staffing to meet demand without over or understaffing at any given time.
+This project aims to showcase common pitfalls for providing online coverage 24 hours a day for a hypothetical learning platform or service. In this case, a nationwide online learning platform operates 24/7, teaches multiple subjects and must ensure adequate educator coverage across all hours and time zones. With hundreds of educators and thousands of students, the goal is to optimize staffing to meet demand without over or understaffing at any given time.
 
 ---
 
