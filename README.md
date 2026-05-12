@@ -163,7 +163,9 @@ Coming soon — Tableau Public interactive dashboard.
 # Changelog:
 All notable changes to this project will be documented here.
 
-### Added
+### 5/11/2026
+
+#### Added
 - 5/11/2026:
 - Defined problem statement
 - Created README
@@ -173,7 +175,7 @@ All notable changes to this project will be documented here.
 - Added images from python viz
 
 
-### Changed
+#### Changed
 - Updated documentation with dictionary and findings
 - Updated 'how to run' section with queries, postgres, python load/create
 - Updated 'how to run' section with viz info
