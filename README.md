@@ -160,18 +160,23 @@ This will generate four charts saved to `/docs/images/`:
 Coming soon — Tableau Public interactive dashboard.
 ---
 
-## Status/Changelog:
-### 5/11/2026:
+# Changelog:
+All notable changes to this project will be documented here.
 
---Defined problem statement
---Created README
---Created Python files, create/load data
---Created SQL Queries
---Updated documentation with dictionary and findings
---Updated 'how to run' section with queries, postgres, python load/create
---Created python script for visualizations
---Added images from python viz
---Updated 'how to run' section with viz info
+### Added
+- 5/11/2026:
+- Defined problem statement
+- Created README
+- Created Python files, create/load data
+- Created SQL Queries
+- Created python script for visualizations
+- Added images from python viz
+
+
+### Changed
+- Updated documentation with dictionary and findings
+- Updated 'how to run' section with queries, postgres, python load/create
+- Updated 'how to run' section with viz info
 
 ---
 
