@@ -1,8 +1,14 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-# Update with your actual postgres password
-engine = create_engine('postgresql://postgres:YOURPASSWORD@localhost:5432/workforce_optimization')
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+password = os.getenv('DB_PASSWORD')
+engine = create_engine(f'postgresql://postgres:{password}@localhost:5432/workforce_optimization')
+
 
 # Load CSVs
 educators_df = pd.read_csv('../data/educators.csv')

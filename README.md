@@ -41,6 +41,8 @@ A nationwide online learning platform operates 24/7 and must ensure adequate edu
 ## Status
 5/11/2026:
 --In Progress: Readme/outline started.
+--Added python files, create data and load data. Ran both, data files ignored.
+
 
 Considerations:
 -Demand: When and where are students most active? What hours have the highest session volume? Should be consider only regional (US) candidates, or global as well?
