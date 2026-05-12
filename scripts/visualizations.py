@@ -37,7 +37,7 @@ COLOR_GREEN = "#55A868"
 
 # Create the output directory if it doesn't already exist
 # This is where all chart PNG files will be saved
-output_dir = "../docs/images"
+output_dir = r"C:\Users\julia\Desktop\BI Projects\247Coverage\docs\images"
 os.makedirs(output_dir, exist_ok=True)
 
 # Query Data from PostgreSQL

@@ -67,6 +67,21 @@ Full column definitions can be found in [/docs/data_dictionary.md](docs/data_dic
 
 ---
 
+## Visualizations
+
+### Student Demand vs Educator Availability
+![Supply vs Demand](docs/images/chart1_supply_vs_demand.png)
+
+### Coverage Gap by Hour
+![Coverage Gap](docs/images/chart2_students_per_educator.png)
+
+### Sessions by Time Zone
+![Time Zone](docs/images/chart3_sessions_by_timezone.png)
+
+### Subject Demand vs Educator Count
+![Subject Demand](docs/images/chart4_subject_demand_vs_supply.png)
+---
+
 ## Key Findings
 Full analysis is available in [/docs/findings.md](docs/findings.md)
 
@@ -84,42 +99,65 @@ Full analysis is available in [/docs/findings.md](docs/findings.md)
 Make sure you have the following installed:
 - Python 3.x
 - PostgreSQL 16+
-- pip packages: pandas, faker, psycopg2-binary, sqlalchemy, python-dotenv
+- pip packages: pandas, faker, psycopg2-binary, sqlalchemy, python-dotenv, matplotlib, seaborn
 
 Install dependencies:
-pip install pandas faker psycopg2-binary sqlalchemy python-dotenv
+```
+pip install pandas faker psycopg2-binary sqlalchemy python-dotenv matplotlib seaborn
+```
 
 ### Setup
 
 1. Clone the repository:
-git clone https://github.com/j0793/247coverage.git
+```
+git clone https://github.com/yourusername/247coverage.git
+```
 
-2. Create a .env file in the project root with your PostgreSQL credentials:
+2. Create a `.env` file in the project root with your PostgreSQL credentials:
+```
 DB_PASSWORD=yourpassword
+```
 
 3. Create the PostgreSQL database:
+```
 psql -U postgres
+```
+```sql
 CREATE DATABASE workforce_optimization;
 \q
+```
 
 ### Generate the Data
 Navigate to the scripts folder and run:
+```
 cd scripts
 python generate_data.py
-
-This will create educators.csv and students.csv in the /data folder.
+```
+This will create `educators.csv` and `students.csv` in the `/data` folder.
 
 ### Load Data into PostgreSQL
+```
 python load_data.py
-
-This will create and populate the educators and students tables.
+```
+This will create and populate the `educators` and `students` tables.
 
 ### Run the SQL Queries
+```
 psql -U postgres -d workforce_optimization -f "sql/analysis_queries.sql"
+```
+
+### Generate Visualizations
+```
+python visualizations.py
+```
+This will generate four charts saved to `/docs/images/`:
+- `chart1_supply_vs_demand.png` — Student demand vs educator availability by hour
+- `chart2_students_per_educator.png` — Coverage gap analysis with risk threshold
+- `chart3_sessions_by_timezone.png` — Student sessions by time zone
+- `chart4_subject_demand_vs_supply.png` — Subject demand vs educator count
 
 ### View the Dashboard
-Open the /dashboard folder and load the Tableau or Power BI file.
-
+Coming soon — Tableau Public interactive dashboard.
 ---
 
 ## Status/Changelog:
@@ -130,8 +168,10 @@ Open the /dashboard folder and load the Tableau or Power BI file.
 --Created Python files, create/load data
 --Created SQL Queries
 --Updated documentation with dictionary and findings
---Updated 'how to run section with queries, postgres, python load/create'
+--Updated 'how to run' section with queries, postgres, python load/create
 --Created python script for visualizations
+--Added images from python viz
+--Updated 'how to run' section with viz info
 
 
 
