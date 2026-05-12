@@ -161,8 +161,8 @@ Coming soon — Tableau Public interactive dashboard.
 ---
 
 ## Status/Changelog:
-5/11/2026:
-==============================================================
+### 5/11/2026:
+
 --Defined problem statement
 --Created README
 --Created Python files, create/load data
@@ -173,7 +173,7 @@ Coming soon — Tableau Public interactive dashboard.
 --Added images from python viz
 --Updated 'how to run' section with viz info
 
-
+---
 
 
 ## Author
