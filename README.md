@@ -130,6 +130,11 @@ Open the /dashboard folder and load the Tableau or Power BI file.
 --Created Python files, create/load data
 --Created SQL Queries
 --Updated documentation with dictionary and findings
+--Updated 'how to run section with queries, postgres, python load/create'
+--Created python script for visualizations
+
+
+
 
 ## Author
 Julian Jimenez - [LinkedIn](http://linkedin.com/in/julianjimenez-manager) 
