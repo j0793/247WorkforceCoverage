@@ -164,7 +164,7 @@ Coming soon — Tableau Public interactive dashboard.
 All notable changes to this project will be documented here.
 
 ### 5/11/2026
-
+===
 #### Added
 - 5/11/2026:
 - Defined problem statement
