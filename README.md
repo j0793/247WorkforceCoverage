@@ -41,15 +41,17 @@ A nationwide online learning platform operates 24/7 and must ensure adequate edu
 ## Status/Changelog:
 
 1. Define the problem
+```
 5/11/2026:
-- Readme/outline started.
-- Problem statement added. 24/7 Online scheduling coverage.
-
+# Readme/outline started.
+# Problem statement added. 24/7 Online scheduling coverage.
+```
 2. Generate/acquire datasets
+```
 5/11/2026
-- Added python files, create data and load data.
-- Created SQL Queries to glance at random data generation.
-
+# Added python files, create data and load data.
+# Created SQL Queries to glance at random data generation.
+```
 
 3. Clean and transform data
 4. Load into database
