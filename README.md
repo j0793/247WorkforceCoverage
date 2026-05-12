@@ -166,7 +166,6 @@ All notable changes to this project will be documented here.
 ### 5/11/2026
 ===
 #### Added
-- 5/11/2026:
 - Defined problem statement
 - Created README
 - Created Python files, create/load data
@@ -179,6 +178,11 @@ All notable changes to this project will be documented here.
 - Updated documentation with dictionary and findings
 - Updated 'how to run' section with queries, postgres, python load/create
 - Updated 'how to run' section with viz info
+
+### 5/12/2026
+===
+### Added
+- Created python file to export csv to be used in Tableau
 
 ---
 
